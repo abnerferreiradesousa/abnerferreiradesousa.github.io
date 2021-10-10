@@ -1,0 +1,30 @@
+img {
+    background-color: #1e96fc;
+    /* align-items: left; */
+    padding: 5px;
+    height: 240px;
+}
+body {
+   font-family: PT Sans Narrow;
+   color: #1e96fc;
+   background-color: #000000; 
+   /* background-image: url(espaco.jpg);
+   background-repeat: no-repeat;
+   background-size: 100%; */
+}
+
+.minha-foto {
+   width: 230px;
+   float: left;
+}
+
+.image-post { 
+   height: 250px;
+}
+
+div {
+   border: 1px solid yellow;
+}
+
+
+
