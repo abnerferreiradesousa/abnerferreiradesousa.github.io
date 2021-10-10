@@ -23,17 +23,13 @@ body {
    position: relative;
 }
 
-div {
-   border: 1px solid yellow;
-}
-
 .meu-nome {
    text-align: center;
 }
 
 .descricao {
    position: absolute;
-   right: 80px;
+   right: 318px;
    top: 80px
 }
 
