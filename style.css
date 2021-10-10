@@ -1,10 +1,10 @@
 img {
     background-color: #1e96fc;
-    /* align-items: left; */
-    padding: 5px;
+    padding: 3px;
     height: 240px;
 }
 body {
+   padding: 2%;
    font-family: PT Sans Narrow;
    color: #1e96fc;
    background-color: #000000; 
@@ -19,7 +19,8 @@ body {
 }
 
 .image-post { 
-   height: 250px;
+   height: 245px;
+   position: relative;
 }
 
 div {
@@ -28,6 +29,12 @@ div {
 
 .meu-nome {
    text-align: center;
+}
+
+.descricao {
+   position: absolute;
+   right: 80px;
+   top: 80px
 }
 
 
