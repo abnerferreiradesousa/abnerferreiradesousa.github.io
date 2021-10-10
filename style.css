@@ -37,4 +37,7 @@ div {
    top: 80px
 }
 
+ul li:nth-child(odd) {
+   background-color: orange;
+}
 
