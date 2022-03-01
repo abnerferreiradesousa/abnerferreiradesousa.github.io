@@ -1,14 +1,56 @@
-img {
-    background-color: #1e96fc;
-    padding: 3px;
-    height: 240px;
-}
+*{margin:0; padding:0}
+
 body {
-   padding: 2%;
+   display: flex;
+   flex-direction: column;
+}
+
+h1:nth-of-type(1) {
+   color: white;
+   margin-left: 50px;
+   font-size: 40px;
+}
+
+.bar-navigation {
+   background-color: black;
+   display: flex;
+   justify-content:space-between;
+   height: 60px;
+}
+
+.item {
+   text-decoration: none;
+   /* border: 2px solid black; */
+   padding: 0px 30px;
+   height: 60px;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.item:hover {
+   background-color: black;
+   color: white;
+   font-size: 20px;
+   width: 80px;
+   height: 80px;
+}
+
+.navigation {
+   display: flex;
+}
+
+body {
+
    font-family: PT Sans Narrow;
-   color: #1e96fc;
-   background-color: #000000; 
-   /* background-image: url(espaco.jpg);
+   color: black;
+   /* background-color: white; */
+   background-image: url();
+   background-repeat: no-repeat; 
+   background-size: cover;
+   background-position: center center;
+   /* background-image: url();
    background-repeat: no-repeat;
    background-size: 100%; */
 }
@@ -33,7 +75,26 @@ body {
    top: 80px
 }
 
-ul li:nth-child(odd) {
-   background-color: orange;
+
+.meet {
+   display: flex;
+   flex-direction: column;
+   width: 400px;
+   height: 400px;
+   margin-top: 100px;
+   font-size: 30px;
 }
 
+.izuku-image {
+   width: 300px;
+   height: 500px;
+   margin-right: 100px;
+}
+
+.first-container {
+   display: flex;
+   justify-content: space-around;
+   margin-top:90px;
+   width: 100%;
+   margin-left: auto;
+}
